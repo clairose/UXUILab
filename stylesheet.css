@@ -1,0 +1,128 @@
+body {
+  background-image: url(images/park.jpg);
+  color: white;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+#page {
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+header {
+  display: flex;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+img.logo {
+  height: 150px;
+  float: left;
+  position: absolute;
+  margin-left: 25px;
+}
+
+img.bone {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#homeheadertext {
+  position: absolute;
+  align-self: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: green;
+}
+
+.title:visited {
+  color: green;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: green;
+}
+
+a.pageheader:visited {
+  color: green;
+}
+
+#search_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#petsnearyou {
+  padding-top: 75px;
+}
+
+.clicks {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.pageheader:visited {
+  color: white;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic_1, .pic_2, .pic_3 {
+  width: 300px;
+  overflow: hidden;
+}
+
+figure > img {
+  width: 100%;
+}
+
+.founders {
+  width: auto;
+  max-height: 300px;
+}
+
+.testimonials {
+  width: auto;
+  max-height: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#FirstQ, #SecondQ, #ThirdQ, #FourthQ, #FifthQ, #SixthQ, #SeventhQ, #EighthQ, #NinthQ {
+  margin: 50px;
+}
+
+.radio {
+  display: inline-block;
+}
+
+#TenthQ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentbox {
+  width:300px;
+  height: 100px;
+}
